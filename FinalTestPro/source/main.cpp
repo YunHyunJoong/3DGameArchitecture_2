@@ -7,6 +7,10 @@
 #include "../FinalTestPro/include/Star.h"
 #include "../FinalTestPro/include/Gameover.h"
 
+#include <mmsyscom.h>
+#pragma comment(lib, "winmm.lib")
+
+
 bool CheckCollision(Composite* one, Composite* two)
 {
 	bool collisionX = one->position.x + 1 >= (two->position.x) / 2 && (two->position.x) / 2 + 1 >= one->position.x;
@@ -17,6 +21,8 @@ bool CheckCollision(Composite* one, Composite* two)
 
 int main(void)
 {
+	PlaySound(TEXT("bgm.wav"), NULL, SND_ASYNC | SND_FILENAME | SND_LOOP);
+
 	Time* time = new Time();
 	Renderer* renderer = Renderer::instance();
 
