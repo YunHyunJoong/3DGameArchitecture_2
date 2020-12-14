@@ -780,9 +780,6 @@
     <ClInclude Include="FileManager.h">
       <Filter>소스 파일\헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Human.h">
-      <Filter>소스 파일\헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="ICleanUp.h">
       <Filter>소스 파일\헤더 파일</Filter>
     </ClInclude>
@@ -808,6 +805,9 @@
       <Filter>소스 파일\헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="IRender.h">
+      <Filter>소스 파일\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite.h">
       <Filter>소스 파일\헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -1224,9 +1224,6 @@
     <ClCompile Include="FileManager.cpp">
       <Filter>소스 파일\소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Human.cpp">
-      <Filter>소스 파일\소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일\소스 파일</Filter>
     </ClCompile>
@@ -1243,6 +1240,9 @@
       <Filter>소스 파일\소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Time.cpp">
+      <Filter>소스 파일\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Composite.cpp">
       <Filter>소스 파일\소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

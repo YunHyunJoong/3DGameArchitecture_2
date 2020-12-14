@@ -8,7 +8,6 @@
 #include "Object.h"
 #include "FileManager.h"
 #include "RenderableObject.h"
-#include "Human.h"
 #include "include/GL/glew.h"
 
 #define FOURCC_DXT1 0x31545844 // Equivalent to "DXT1" in ASCII

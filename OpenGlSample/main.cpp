@@ -9,7 +9,6 @@
 #include "Renderer.h"
 #include "RenderableObject.h"
 #include "NonRenderableObject.h"
-#include "Human.h"
 #include "Time.h"
 
 int main()
@@ -21,7 +20,8 @@ int main()
 
 	NonRenderableObject* non_render_obj = new NonRenderableObject();
 
-	Human* human = new Human();
+	/*Human* human = new Human();
+	Snow* snow = new Snow();*/
 
 	renderer->init();
 
@@ -39,10 +39,12 @@ int main()
 		renderer->renderOff();
 	}
 
-	human->shutDown();
+	//human->shutDown();
+	//snow->shutDown();
 	renderer->shutDown();
 
-	delete human;
+	/*delete human;
+	delete snow;*/
 	delete non_render_obj;
 
 	return 0;
